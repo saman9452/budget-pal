@@ -1,7 +1,9 @@
-import Image from "next/image";
+"use client"
+
+import TransactionsList from "@/components/TransactionsList";
 
 export default function Home() {
   return (
-<h1>Hii</h1>
+    <TransactionsList />
   );
 }
